@@ -1,0 +1,606 @@
+<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Arial&display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" /></head><body><div class="v2_134"><div class="name"></div><span class="v2_103">Formação de TI no SENAC, com aprendizado de bancos de dados e programação em C#, CSS, JavaScript e HTML. Estudante de Design de jogos na Uninter. Estudante de Engenharia da Computação na Univesp.</span><span class="v2_104">Minhas habilidades ↓</span><span class="v2_100">Ezequiel de Senne Santos</span><span class="v2_101">Técnico de Ti, estudante de design de jogos e estudante de engenharia da computação. </span><div class="v48_37"></div><span class="v6_65">Firebase</span><span class="v6_66">Consigo utilizar o Firebase para a criação de bancos de dados de sites e aplicativos, além de criar suas conexões para JavaScript e Html.</span><span class="v6_60">Programação</span><span class="v6_61">Capaz de programar sites e aplicativos em JavaScript, CSS, C# e HTML utilizando Visual Studio Code como minha principal ferramenta.</span><span class="v6_55">Github</span><span class="v6_56">Sou capaz de usar plataformas como o GitHub para compartilhamento de dados e projetos. Todos meus projetos, finalizados ou em andamento se encontram no meu GitHub.</span><span class="v6_50">Bancos de dados</span><span class="v6_51">Tenho conhecimento de como organizar, criar, gerenciar e atualizar um banco de dados de acordo com as necessidades utilizando MySQL.</span><div class="name"></div><div class="name"></div><div class="name"></div><div class="name"></div><div class="name"></div></div></body></html> <br/><br/> <style>* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v2_134 {
+  width: 100%;
+  height: 2043px;
+  background: rgba(9,9,9,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v2_103 {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 542px;
+  left: 108px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.v2_104 {
+  width: 827px;
+  color: url("../images/v2_104.png");
+  position: absolute;
+  top: 837px;
+  left: 337px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 80px;
+  opacity: 1;
+  text-align: center;
+}
+.v2_100 {
+  width: 616px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 197px;
+  left: 535px;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: right;
+}
+.v2_101 {
+  width: 586px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 257px;
+  left: 550px;
+  font-family: Roboto;
+  font-weight: Condensed Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: right;
+}
+.v48_37 {
+  width: 277px;
+  height: 313px;
+  background: url("../images/v48_37.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 101px;
+  left: 226px;
+  overflow: hidden;
+}
+.v6_65 {
+  width: 875px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1703px;
+  left: 216px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_66 {
+  width: 875px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 1756px;
+  left: 216px;
+  font-family: Roboto;
+  font-weight: Condensed Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_60 {
+  width: 875px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1486px;
+  left: 216px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_61 {
+  width: 875px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 1539px;
+  left: 216px;
+  font-family: Roboto;
+  font-weight: Condensed Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_55 {
+  width: 875px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1269px;
+  left: 216px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_56 {
+  width: 875px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 1322px;
+  left: 216px;
+  font-family: Roboto;
+  font-weight: Condensed Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_50 {
+  width: 875px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1052px;
+  left: 216px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_51 {
+  width: 875px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 1105px;
+  left: 216px;
+  font-family: Roboto;
+  font-weight: Condensed Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+</style>
+
+<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" /></head><body><div class="v57_94"><div class="v57_41"></div><div class="v57_42"></div><div class="v57_43"></div><div class="v57_44"><div class="v57_45"></div><div class="v57_46"></div></div><span class="v57_47">github.com/Watersage980</span><div class="v57_48"><div class="v57_49"></div><div class="v57_50"><div class="v57_51"></div><div class="v57_52"></div></div></div><span class="v57_53">ezequielsennesantos@gmail.com</span></div></body></html> <br/><br/> <style>* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v57_94 {
+  width: 100%;
+  height: 165px;
+  background: url("../images/v57_94.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v57_41 {
+  width: 100%;
+  height: 165px;
+  background: rgba(109,107,107,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v57_42 {
+  width: 100%;
+  height: 165px;
+  background: linear-gradient(rgba(9,9,9,0), rgba(9,9,9,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v57_43 {
+  width: 100%;
+  height: 165px;
+  background: linear-gradient(rgba(9,9,9,0), rgba(9,9,9,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v57_44 {
+  width: 54px;
+  height: 54px;
+  background: url("../images/v57_44.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 56px;
+  left: 109px;
+  overflow: hidden;
+}
+.v57_45 {
+  width: 54px;
+  height: 54px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.v57_46 {
+  width: 23px;
+  height: 23px;
+  background: url("../images/v57_46.png");
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  border: 2px solid rgba(0,0,0,1);
+}
+.v57_47 {
+  width: 390px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 64px;
+  left: 184px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+.v57_48 {
+  width: 54px;
+  height: 54px;
+  background: url("../images/v57_48.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 56px;
+  left: 807px;
+  overflow: hidden;
+}
+.v57_49 {
+  width: 54px;
+  height: 54px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.v57_50 {
+  width: 29px;
+  height: 29px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  overflow: hidden;
+}
+.v57_51 {
+  width: 24px;
+  height: 19px;
+  background: url("../images/v57_51.png");
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  border: 2px solid rgba(0,0,0,1);
+}
+.v57_52 {
+  width: 24px;
+  height: 8px;
+  background: url("../images/v57_52.png");
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  border: 2px solid rgba(0,0,0,1);
+}
+.v57_53 {
+  width: 492px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 64px;
+  left: 882px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+</style>
+
+<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Arial&display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" /></head><body><div class="v2_134"><div class="v58_119"></div><div class="v58_120"></div><div class="v58_121"></div><div class="v58_122"></div><div class="v58_123"></div><div class="v58_124"></div><span class="v2_103">Formação de TI no SENAC, com aprendizado de bancos de dados e programação em C#, CSS, JavaScript e HTML. Estudante de Design de jogos na Uninter. Estudante de Engenharia da Computação na Univesp.</span><span class="v2_104">Minhas habilidades ↓</span><span class="v2_100">Ezequiel de Senne Santos</span><span class="v2_101">Técnico de Ti, estudante de design de jogos e estudante de engenharia da computação. </span><div class="v48_37"></div><span class="v6_65">Firebase</span><span class="v6_66">Consigo utilizar o Firebase para a criação de bancos de dados de sites e aplicativos, além de criar suas conexões para JavaScript e Html.</span><span class="v6_60">Programação</span><span class="v6_61">Capaz de programar sites e aplicativos em JavaScript, CSS, C# e HTML utilizando Visual Studio Code como minha principal ferramenta.</span><span class="v6_55">Github</span><span class="v6_56">Sou capaz de usar plataformas como o GitHub para compartilhamento de dados e projetos. Todos meus projetos, finalizados ou em andamento se encontram no meu GitHub.</span><span class="v6_50">Bancos de dados</span><span class="v6_51">Tenho conhecimento de como organizar, criar, gerenciar e atualizar um banco de dados de acordo com as necessidades utilizando MySQL.</span><div class="name"></div><div class="name"></div><div class="name"></div><div class="name"></div><div class="name"></div></div></body></html> <br/><br/> <style>* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v2_134 {
+  width: 100%;
+  height: 2043px;
+  background: rgba(9,9,9,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v58_119 {
+  width: 100%;
+  height: 100%;
+  background: url("../images/v58_119.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v58_120 {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(9,9,9,1), rgba(9,9,9,0));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v58_121 {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(9,9,9,1), rgba(9,9,9,0));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v58_122 {
+  width: 100%;
+  height: 423px;
+  background: linear-gradient(rgba(9,9,9,0), rgba(9,9,9,1));
+  opacity: 1;
+  position: absolute;
+  top: 601px;
+  left: 0px;
+  overflow: hidden;
+}
+.v58_123 {
+  width: 100%;
+  height: 423px;
+  background: linear-gradient(rgba(9,9,9,0), rgba(9,9,9,1));
+  opacity: 1;
+  position: absolute;
+  top: 601px;
+  left: 0px;
+  overflow: hidden;
+}
+.v58_124 {
+  width: 100%;
+  height: 423px;
+  background: linear-gradient(rgba(9,9,9,0), rgba(9,9,9,1));
+  opacity: 1;
+  position: absolute;
+  top: 601px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_103 {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 542px;
+  left: 108px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.v2_104 {
+  width: 827px;
+  color: url("../images/v2_104.png");
+  position: absolute;
+  top: 837px;
+  left: 337px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 80px;
+  opacity: 1;
+  text-align: center;
+}
+.v2_100 {
+  width: 616px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 197px;
+  left: 535px;
+  font-family: Arial;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: right;
+}
+.v2_101 {
+  width: 595px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 258px;
+  left: 551px;
+  font-family: Roboto;
+  font-weight: Condensed Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: right;
+}
+.v48_37 {
+  width: 277px;
+  height: 313px;
+  background: url("../images/v48_37.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 101px;
+  left: 226px;
+  overflow: hidden;
+}
+.v6_65 {
+  width: 875px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1703px;
+  left: 216px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_66 {
+  width: 875px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 1756px;
+  left: 216px;
+  font-family: Roboto;
+  font-weight: Condensed Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_60 {
+  width: 875px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1486px;
+  left: 216px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_61 {
+  width: 875px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 1539px;
+  left: 216px;
+  font-family: Roboto;
+  font-weight: Condensed Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_55 {
+  width: 875px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1269px;
+  left: 216px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_56 {
+  width: 875px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 1322px;
+  left: 216px;
+  font-family: Roboto;
+  font-weight: Condensed Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_50 {
+  width: 875px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1052px;
+  left: 216px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v6_51 {
+  width: 875px;
+  color: rgba(255,255,255,0.699999988079071);
+  position: absolute;
+  top: 1105px;
+  left: 216px;
+  font-family: Roboto;
+  font-weight: Condensed Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+</style>
