@@ -256,3 +256,23 @@
     height: 54px;
     padding-left: 10vw;
   }
+  .hr1 {
+    border: 1px solid red;
+    top: 1215px;
+    width: 71%;
+    left: 15%;
+    position: absolute;
+  }
+  .hr2 {
+    border: 1px solid red;
+    top: 1435px;
+    width: 71%;
+    left: 15%;
+    position: absolute;
+  }.hr3 {
+    border: 1px solid red;
+    top: 1645px;
+    width: 71%;
+    left: 15%;
+    position: absolute;
+  }
