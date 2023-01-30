@@ -17,7 +17,7 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 1.43%;
-    left: 15.75%; /*300*/
+    left: 13%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -34,7 +34,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 66px;
-    left: 63.1%; /*1200*/
+    left: 70%;
     overflow: hidden;
   }
   .v26_55 {
@@ -47,7 +47,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 25%;
-    left: 52.5%; /*1000*/
+    left: 56%; /*1000*/
     overflow: hidden;
   }
   .v27_60 {
@@ -55,7 +55,7 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 500px;
-    left: 52.5%;
+    left: 56%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -67,7 +67,7 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 1992px;
-    left: 52.5%;
+    left: 56%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -79,7 +79,7 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 2916px;
-    left: 15.75%;
+    left: 13%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -103,7 +103,7 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 27.5%;
-    left: 15.75%;
+    left: 13%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -126,7 +126,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 1852px;
-    left: 15.75%;
+    left: 13%;
     overflow: hidden;
   }
   .v83_40 {
@@ -139,7 +139,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 438px;
-    left: 15.75%;
+    left: 13%;
     overflow: hidden;
   }
   .v83_42 {
@@ -152,7 +152,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 2811px;
-    left: 52.5%;
+    left: 56%;
     overflow: hidden;
   }
   .v83_43 {
@@ -165,7 +165,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 3617px;
-    left: 15.75%;
+    left: 13%;
     overflow: hidden;
   }
   .button6 {
@@ -221,40 +221,40 @@ body {
   .hr1 {
     border: 2px solid red;
     top: 391px;
-    left: 15%;
-    width: 71%;
+    left: 13%;
+    width: 75%;
     position: absolute;
     z-index: 1;
   }
   .hr2 {
     border: 2px solid red;
     top: 1091px;
-    left: 15%;
-    width: 71%;
+    left: 13%;
+    width: 75%;
     position: absolute;
     z-index: 1;
   }
   .hr3 {
     border: 2px solid red;
     top: 1791px;
-    left: 15%;
-    width: 71%;
+    left: 13%;
+    width: 75%;
     position: absolute;
     z-index: 1;
   }
   .hr4 {
     border: 2px solid red;
     top: 2691px;
-    left: 15%;
-    width: 71%;
+    left: 13%;
+    width: 75%;
     position: absolute;
     z-index: 1;
   }
   .hr5 {
     border: 2px solid red;
     top: 3541px;
-    left: 15%;
-    width: 71%;
+    left: 13%;
+    width: 75%;
     position: absolute;
     z-index: 1;
   }
