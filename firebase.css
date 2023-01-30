@@ -1,0 +1,63 @@
+body {
+    font-size: 14px;
+  }
+  .v31_116 {
+    width: 100%;
+    height: 1097px;
+    background: rgba(9,9,9,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v31_119 {
+    width: 292px;
+    height: 297px;
+    background: url("./images/firebaselogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 75px;
+    left: 1035px;
+    overflow: hidden;
+  }
+  .v31_121 {
+    width: 837px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 75px;
+    left: 133px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400px;
+    font-size: 35px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v31_128 {
+    width: 100%;
+    height: 433px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 525px;
+    left: 133px;
+    overflow: hidden;
+  }
+  .v31_129 {
+    width: 525px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 712px;
+    left: 468px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400px;
+    font-size: 35px;
+    opacity: 1;
+    text-align: left;
+  }
+  .name {
+    color: #fff;
+  }
