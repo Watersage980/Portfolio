@@ -10,13 +10,14 @@ body {
     top: 0px;
     left: 0px;
     overflow: hidden;
+    z-index: -1;
   }
   .v19_143 {
     width: 854px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 66px;
-    left: 300px;
+    top: 1.43%;
+    left: 15.75%; /*300*/
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -33,7 +34,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 66px;
-    left: 1200px;
+    left: 63.1%; /*1200*/
     overflow: hidden;
   }
   .v26_55 {
@@ -45,8 +46,8 @@ body {
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 1114px;
-    left: 1000px;
+    top: 25%;
+    left: 52.5%; /*1000*/
     overflow: hidden;
   }
   .v27_60 {
@@ -54,7 +55,7 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 500px;
-    left: 1000px;
+    left: 52.5%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -66,7 +67,7 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 1992px;
-    left: 1000px;
+    left: 52.5%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -78,7 +79,7 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 2916px;
-    left: 300px;
+    left: 15.75%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -90,7 +91,7 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 3719px;
-    left: 1000px;
+    left: 52.5%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -101,8 +102,8 @@ body {
     width: 645px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 1267px;
-    left: 300px;
+    top: 27.5%;
+    left: 15.75%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400px;
     font-size: 35px;
@@ -125,7 +126,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 1852px;
-    left: 300px;
+    left: 15.75%;
     overflow: hidden;
   }
   .v83_40 {
@@ -138,7 +139,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 438px;
-    left: 300px;
+    left: 15.75%;
     overflow: hidden;
   }
   .v83_42 {
@@ -151,7 +152,7 @@ body {
     opacity: 1;
     position: absolute;
     top: 2811px;
-    left: 1000px;
+    left: 52.5%;
     overflow: hidden;
   }
   .v83_43 {
@@ -164,14 +165,14 @@ body {
     opacity: 1;
     position: absolute;
     top: 3617px;
-    left: 300px;
+    left: 15.75%;
     overflow: hidden;
   }
   .button6 {
     padding: 18px 30px;
     position: absolute;
     top: 1500px;
-    left: 500px;
+    left: 26.3%;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
@@ -192,4 +193,68 @@ body {
     background-color: #000000;
     border: 2px solid white;
     cursor: pointer;
+  }
+  .color_break1 {
+    top: 400px;
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    background-color: #6D6C6C;
+    z-index: 0;
+  }
+  .color_break2 {
+    top: 1800px;
+    height: 900px;
+    width: 100%;
+    position: absolute;
+    background-color: #6D6C6C;
+    z-index: 0;
+  }
+  .color_break3 {
+    top: 3550px;
+    height: 1047px;
+    width: 100%;
+    position: absolute;
+    background-color: #6D6C6C;
+    z-index: 0;
+  }
+  .hr1 {
+    border: 2px solid red;
+    top: 391px;
+    left: 15%;
+    width: 71%;
+    position: absolute;
+    z-index: 1;
+  }
+  .hr2 {
+    border: 2px solid red;
+    top: 1091px;
+    left: 15%;
+    width: 71%;
+    position: absolute;
+    z-index: 1;
+  }
+  .hr3 {
+    border: 2px solid red;
+    top: 1791px;
+    left: 15%;
+    width: 71%;
+    position: absolute;
+    z-index: 1;
+  }
+  .hr4 {
+    border: 2px solid red;
+    top: 2691px;
+    left: 15%;
+    width: 71%;
+    position: absolute;
+    z-index: 1;
+  }
+  .hr5 {
+    border: 2px solid red;
+    top: 3541px;
+    left: 15%;
+    width: 71%;
+    position: absolute;
+    z-index: 1;
   }
