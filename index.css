@@ -13,6 +13,7 @@
     top: 0px;
     left: 0px;
     overflow: hidden;
+    z-index: -1;
   }
   .name {
     color: #fff;
@@ -275,4 +276,12 @@
     width: 71%;
     left: 15%;
     position: absolute;
+  }
+  .color_break {
+    position: absolute;
+    top: 1000px;
+    height: 44%;
+    width: 100%;
+    background-color: rgb(88, 88, 88);
+    z-index: 0;
   }
