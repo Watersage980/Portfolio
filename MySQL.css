@@ -10,6 +10,7 @@ body {
     top: 0px;
     left: 0px;
     overflow: hidden;
+    z-index: -1;
   }
   .v8_83 {
     width: 530px;
@@ -89,4 +90,20 @@ body {
     background-color: #000000;
     border: 2px solid white;
     cursor: pointer;
+  }
+  .color_break {
+    top: 50%;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    background-color: #6D6C6C;
+    z-index: 0;
+  }
+  .line {
+    border: 2px solid red;
+    top: 49.4%;
+    left: 15%;
+    width: 71%;
+    position: absolute;
+    z-index: 0;
   }

@@ -279,9 +279,9 @@
   }
   .color_break {
     position: absolute;
-    top: 1000px;
+    top: 50%;
     height: 44%;
     width: 100%;
-    background-color: rgb(88, 88, 88);
+    background-color: #6D6C6C;
     z-index: 0;
   }
