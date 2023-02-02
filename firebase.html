@@ -3,6 +3,7 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="./firebase.css">
+        <link rel="stylesheet" href="https://bootswatch.com/5/yeti/bootstrap.min.css"/>
     </head>
     <body>
         <div class="v31_116">
@@ -10,9 +11,99 @@
             <span class="v31_121">Firebase, assim como o MySQL workbench, é uma plataforma para criar bancos de dados, 
                 contudo a grande diferença é que o firebase é um banco de dados não relacional, que é um banco de dados que 
                 não usa o esquema de tabela de linhas e colunas encontrado na maioria dos sistemas de banco de dados tradicionais.</span>
-            <hr class="line"> 
+                <hr class="line"> <hr class="line"> <hr class="line"> <hr class="line"> <hr class="line"> <hr class="line"> <hr class="line"> <hr class="line"> 
             <span class="color_break"></span>
-            
+            <div class="app">
+            <div class="container p-4">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h1 class="h4">Adicionar tarefa</h1>
+          
+                        <form id="task-form">
+                          <label for="title">Tipo:</label>
+                          <input
+                            type="text"
+                            id="task-title"
+                            class="form-control mb-3"
+                            class="My First Title"
+                            placeholder="Tipo"
+                            autofocus
+                          />
+          
+                          <label for="description">Descrição:</label>
+                          <textarea
+                            id="task-description"
+                            rows="3"
+                            class="form-control mb-3"
+                            placeholder="Descrição"
+                          ></textarea>
+          
+                          <button class="btn btn-primary" id="btn-task-form">Save</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Tasks List -->
+                  <div class="col-md-6" id="tasks-container"></div>
+                </div>
+              </div>
+          
+              <div class="container p-4">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h1 class="h4">Adicionar produto</h1>
+          
+                        <form id="produto-form">
+                          <label for="nome">Nome:</label>
+                          <input
+                            type="text"
+                            id="produto-nome"
+                            class="form-control mb-3"
+                            class="My First Title"
+                            placeholder="Nome"
+                            autofocus
+                          />
+          
+                          <label for="quantidade">Quantidade no estoque:</label>
+                          <input
+                            type="text"
+                            id="produto-quantidade"
+                            class="form-control mb-3"
+                            placeholder="0 unidades"
+                          />
+          
+                          <label for="valor">Valor:</label>
+                          <input
+                            type="text"
+                            id="produto-valor"
+                            class="form-control mb-3"
+                            placeholder="Valor"
+                          />
+          
+                          <label for="dataV">Data de Vencimento:</label>
+                          <input
+                            type="date"
+                            id="produto-dataV"
+                            class="form-control mb-3"
+                          />
+          
+                          <button class="btn btn-primary" id="btn-produto-form">Save</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Tasks List -->
+                  <div class="col-md-6" id="produto-container"></div>
+                </div>
+              </div>
+          
+              <!-- CUSTOM CODE -->
+              <script src="./firebase2.js" type="module"></script>
+            </div>
             <div class="name"></div>
             <a href="./index.html"><button class="button8">Voltar</button></a>
         </div>
