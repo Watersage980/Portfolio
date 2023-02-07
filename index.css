@@ -73,6 +73,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    border-radius: 100%;
     opacity: 1;
     position: absolute;
     top: 101px;
@@ -282,6 +283,6 @@
     top: 50%;
     height: 44%;
     width: 100%;
-    background-color: #6D6C6C;
+    background-color: #000000;
     z-index: 0;
   }
